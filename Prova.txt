@@ -1,0 +1,8 @@
+echo "# lab1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add lab1 https://github.com/DanieleSpigolon/lab1.git
+git push -u lab1 main
+                
